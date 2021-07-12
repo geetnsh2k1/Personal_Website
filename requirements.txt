@@ -39,13 +39,9 @@ python-rle==0.0.3
 python3-openid==3.2.0
 pyttsx3==2.90
 pytz==2021.1
-pywin32==227
 regex==2020.9.27
 requests==2.25.1
-sqlparse==0.4.1
-sympy==1.8
 urllib3==1.26.3
-vine==5.0.0
 virtualenv==20.0.35
 websocket-client==0.57.0
 whitenoise==5.2.0
