@@ -56,6 +56,12 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
-
-
-
+var icon = document.getElementById("theme");
+icon.onclick = function() {
+    document.body.classList.toggle("dark_theme");
+    if(document.body.classList.contains("dark_theme")) {
+        icon.innerHTML = '<i class="bx bx-sun"></i>' 
+    }  else {
+        icon.innerHTML = '<i class="bx bx-moon"></i>' 
+    }
+}
